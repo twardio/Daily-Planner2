@@ -11,6 +11,6 @@ $(document).ready(function(){
 });
 
 //current date for header 
-var dayWeek = today.format("[Today is] dddd")
-$("#currentDay").text(dayWeek);
+var today = moment();
+$("#currentDay").text(today.format("D MMM YYYY"));
 
