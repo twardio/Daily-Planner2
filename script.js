@@ -23,3 +23,17 @@ console.log(timeNow)
 
 
 
+// CSS styling for time change
+if (timeNow >= 8 && timeNow <= 17) {
+  for (i = 0; i < timeNow - 8; i++) {
+      $('.time-block').eq(i).css('background-color', 'grey');
+  }
+
+
+  $('.time-block').eq(timeNow - 9).css('background-color', 'red')
+  
+} else if (timeNow > 17) {
+  for (i = 0; i < timeNow - 8; i++) {
+      $('.time-block').eq(i).css('background-color', 'green');
+  }
+}
