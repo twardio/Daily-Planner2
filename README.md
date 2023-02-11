@@ -21,7 +21,7 @@ Requires no installation,
 ## Deployment
 To deploy this project run
 
-click on the url ==> https://github.com/twardio/Daily-Planner2
+click on the url ==> https://twardio.github.io/Daily-Planner2/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
