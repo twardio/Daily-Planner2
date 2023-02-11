@@ -24,20 +24,14 @@ console.log(timeNow)
 
 
 // CSS styling for time change
+
+let i;
 if (timeNow >= 8 && timeNow <= 17) {
-  for (i = 0; i < timeNow - 8; i++) {
-      $('.time-block').eq(i).css('background-color', 'grey');
-  }
-
-
-  $('.time-block').eq(timeNow - 9).css('background-color', 'red')
-  
-} 
-
-
-
-else if (timeNow > 17) {
-  for (i = 0; i - 8; i++) {
-      $('.time-block').eq(i).css('background-color', 'green');
-  }
+for (i = 0; i < timeNow - 8; i++) {
+$('.time-block').eq(i).css('background-color','grey');
+}
+$('.time-block').eq(timeNow - 9).css('background-color','red ')
+}
+for (let j = i; j < 17; j++) {
+$('.time-block').eq(j).css('background-color','green');
 }
